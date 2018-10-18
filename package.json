@@ -1,0 +1,14 @@
+{
+  "name": "avidpanel",
+  "version": "1.0.0",
+  "description": "Avidbots SW Devel Challenge - Web Panel package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wagner Correa Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "websocket": "^1.0.28"
+  }
+}
