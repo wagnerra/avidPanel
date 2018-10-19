@@ -5,15 +5,15 @@ to group and archve data from cleaning Robots doing basically these functions:
 - Communicate with Cleaning Robots receiving current status in near real time.
 - Execute remote commands on Cleaning Robots
   - START: Start a cleaning job
-  - STOP: Stop current cleaning job
-  - RESUME: Resume a stopped cleaning job
-  - CANCEL: Cancel a cleaning job
+  - STOP: Stop current cleaning job  (Not implemented)
+  - RESUME: Resume a stopped cleaning job   (Not implemented)
+  - CANCEL: Cancel a cleaning job    (Not implemented)
 - Communicate with Client Web Navigator allowing the user execute commands
   - SELECT: Select a Remote Cleaning Robot to begin near real time interaction
   - START: Start a cleaning job on SELECTED Robot
-  - STOP: Stop current cleaning job on SELECTED Robot
-  - RESUME: Resume a stopped cleaning job on SELECTED Robot
-  - CANCEL: Cancel a cleaning job on SELECTED Robot
+  - STOP: Stop current cleaning job on SELECTED Robot    (Not implemented)
+  - RESUME: Resume a stopped cleaning job on SELECTED Robot   (Not implemented)
+  - CANCEL: Cancel a cleaning job on SELECTED Robot      (Not implemented)
 - Allow multiple clients interacting with multiple Robots
 
 ### DEPLOY INSTRUCTIONS
@@ -35,5 +35,4 @@ node server.js
 ```
 OBS: Actual version working only on 8080 TCP port, do not change.
 
-### TESTING
 
